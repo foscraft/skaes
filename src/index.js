@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import * as serviceWorker from "./serviceWorker"
 import {BrowserRouter as Router,Route,Routes} from  "react-router-dom";
 import {
   Navigation,
   Footer,
   Home,
+  Login,
   Profile,
   Contact,
 } from "./components";
@@ -20,6 +20,7 @@ root.render(
     <Route path="/" element={<Home />} />
     <Route path="/profile" element={<Profile />} />
     <Route path="/contact" element={<Contact />} />
+    <Route path="/login" element={<Login />} />
   </Routes>
   <Footer />
 </Router>
