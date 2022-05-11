@@ -1,11 +1,15 @@
 import { useState } from "react";
-import ReactDOM from 'react-dom/client';
 
 function Login() {
   const [username, setName] = useState("");
   const [password, setPassword] = useState("");
 
   return (
+    <div className="login">
+      <div className="container">
+        <div className="row align-items-center my-5">
+          <div className="col-lg-7">
+            <h2> <link rel="apple-touch-icon" href="%PUBLIC_URL%/css/logo192.svg" />Hello Skaer!</h2>
     <form>
       <label>Enter username or email:
         <input
@@ -22,6 +26,10 @@ function Login() {
         />
       </label>
     </form>
+    </div>
+    </div>
+    </div>
+    </div>
   )
 }
 export default Login;
