@@ -13,7 +13,7 @@ function About() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Profile</h1>
+            <h1 class="font-weight-light">My Profile</h1>
             <p class="lead">
                 My name is Reuben Nyaribari, I am a Python data engineer and programmer.<br/>
                 I have a Bachelors in Mathematics with a Statistics major.
