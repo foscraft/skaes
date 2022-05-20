@@ -12,11 +12,19 @@ const Home = () => {
               alt=""
             />
           </div>
+
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Home</h1>
-            <p>
-            
-            </p>
+            <h1 class="font-weight-light">Foscraft</h1>
+            <p class="lead">
+                This  is my first React App. <br/>
+                With terrible CSS styling.
+              </p>
+              <p class="lead">
+                I am currently learning software development other interetsting tech things at Skaehub Nairobi, Kenya.
+              </p>
+              <p class="lead">
+                You can check out my projects on my <a href="https://github.com/foscraft">github</a> .
+              </p>
           </div>
         </div>
       </div>
